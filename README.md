@@ -1,6 +1,6 @@
 # aos.nvim
 
-[![Tests](https://github.com/kalmbach/aos.nvim/actions/workflows/test.yml/badge.svg)](https://github.com/kalmbach/aos.nvim/actions/workflows/test.yml)
+[![Tests](https://github.com/planetariosh/aos.nvim/actions/workflows/test.yml/badge.svg)](https://github.com/planetariosh/aos.nvim/actions/workflows/test.yml)
 
 **Agent on the side.** A small Neovim plugin that runs one coding agent
 (`claude` by default) in a terminal split pinned to the far left or right
@@ -38,7 +38,7 @@ If a floating window is what you want, use
 ### `vim.pack`
 
 ```lua
-vim.pack.add { 'https://github.com/kalmbach/aos.nvim' }
+vim.pack.add { 'https://github.com/planetariosh/aos.nvim' }
 
 require('aos').setup()
 ```
@@ -47,7 +47,7 @@ require('aos').setup()
 
 ```lua
 {
-  'kalmbach/aos.nvim',
+  'planetariosh/aos.nvim',
   config = function()
     require('aos').setup()
   end,
